@@ -1,4 +1,4 @@
-package oop.todolist.exceptions;
+package todolist.exceptions;
 
 public class WrongPassword extends RuntimeException {
     public WrongPassword(String message) {

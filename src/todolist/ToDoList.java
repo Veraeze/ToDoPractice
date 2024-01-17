@@ -1,8 +1,10 @@
-package oop.todolist;
+package todolist;
 
-import oop.diary.exceptions.CannotBeFound;
-import oop.diary.exceptions.WrongPassword;
-import oop.todolist.exceptions.LoginError;
+
+
+import todolist.exceptions.CannotBeFound;
+import todolist.exceptions.LoginError;
+import todolist.exceptions.WrongPassword;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -51,7 +53,7 @@ public class ToDoList {
 
 
     private void validateLogin() {
-        if (isLoggedin) throw new LoginError("Error! Log in to perform action");
+        if (!isLoggedin) throw new LoginError("Error! Log in to perform action");
     }
 
     public String generateID() {

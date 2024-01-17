@@ -1,4 +1,4 @@
-package todolist;
+import todolist.ToDoList;
 
 import java.util.Scanner;
 
