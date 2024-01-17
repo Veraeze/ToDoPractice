@@ -34,9 +34,9 @@ public class Task {
     public String toString(){
         return String.format("""
                             ==========================
-                            Entry ID: %d
-                            Title of entry: %s
-                            Body of entry: %s
+                            Task ID: %d
+                            Title of task: %s
+                            Body of task: %s
                             Date created: %s
                             ==========================
                              """, id, title, body, dateCreated);
